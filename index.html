@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <style>
+        #caja{
+            width:200px;
+            height: 200px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <h1>EVENTOS</h1>
+
+    <!-- FORMA CLICK -->
+    <button id="button">Hace click aquí!</button>
+    <br><br>
+
+    <!-- FORMA ON CLICK -->
+    <button id="buttonTwo">USANDO LA PROPIEDAD DEL NODO</button>
+    <br><br>
+
+    <!-- Forma: llamar la función desde HTML -->
+    <button onclick="jsEnHtml()" >CLICK CON JS EN HTMLS</button>
+    <br><br>
+
+    <!-- Eventos de mouse -->
+    <div id="caja"></div>
+    <br><br>
+
+    <!-- Eventos del teclado -->
+
+    <input type="text" name="text" id="text">
+    <br><br>
+    
+    <!-- EVENTO SUBMIT  -->
+
+    <form id="formulario">
+        <label for="nombre">Ingrese su Nombre: </label>
+        <input type="text" id="nombre">
+        <br><br>
+
+        <label for="apellido"> Ingrese su apellido: </label>
+        <input type="text" id="apellido">
+        <br><br>
+
+
+        <button>Enviar</button>
+
+    </form>
+
+
+    <script src="eventos.js"></script>
+</body>
+</html>
